@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/framework7.ios.min.css" />
+    <link rel="stylesheet" href="css/framework7-icons.css" />
+    <link rel="stylesheet" href="css/my-app.css" />
+</head>
+
+<body>
+    <div class="views">
+        <div class="view view-main">
+            <!-- 顶部 -->
+            <div class="panel-overlay"></div>
+            <div class="navbar">
+                <div class="navbar-inner navbar-on-center">
+                    <div class="left"><a href="#" class="back link"> <i class="f7-icons">chevron_left</i><span>Back</span></a></div>
+                    <div class="center sliding">联系我们</div>
+                    <div class="right">
+                        <a href="#" class="link icon-only open-panel">
+                            <i class="f7-icons">menu</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-panel">
+                <div class="panel panel-right panel-cover">
+                  <div class="content-block">
+                    <p><a href="product.html" class="panel-close">产品中心</a></p>
+                    <p><a href="case.html" class="panel-close">解决方案</a></p>
+                    <p><a href="news.html" class="panel-close">新闻中心</a></p>
+                    <p><a href="services.html" class="panel-close">服务支持</a></p>
+                    <p><a href="case.html" class="panel-close">行业应用</a></p>
+                    <p><a href="news.html" class="panel-close">专题报道</a></p>
+                    <p class="panel-close"><a href="#">关闭</a></p>
+                    <h3>粉磨装备整体</h3>
+                    <h3>解决方案提供商</h3>
+                  </div>
+                </div>
+              </div>
+            <!-- 内容 -->
+
+            <div class="pages navbar-through toolbar-through ">
+
+                    
+
+                <div data-page="contact" class="page  page-on-center">
+            
+                    <!-- Scrollable page content-->
+                    <div class="page-content">
+                        <img src="img/proimg/29.jpg" alt="" class="banner-a">
+                        <div class="index-content contact-a">
+                            <!-- map -->
+                            <!-- <iframe class="map" frameborder="0" height="210" scrolling="no" src="https:www.lmzg.com/templets/newlmzg/map_baidu.html" width="100%"></iframe> -->
+                            <div class="contact-b">
+                                    <h3>总部地址</h3>
+                                    <p>中国-郑州-国家高新技术产业开发区科学大道169号</p>
+                                    <h3>全国统一销售热线</h3>
+                                    <p>400-655-1888 0371-67986666</p>
+                                    <h3>电子信箱</h3>
+                                    <p>vip@lmlq.com</p>
+                            </div>
+                            <div class="index-content-f">
+                                <p>如果您有什么需求或者疑问，请您留言，我们收到后会尽快给您答复！</p>
+                                <form id="my-form" class="list-block" method="post" action="//data.lmzg.com/post.php">
+                                    <input type="hidden" name="url" id="url" value="">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><i class="icon icon-form-name"></i></div>
+                                                <div class="item-inner">
+                                                    <!-- <div class="item-title label">您的称呼</div> -->
+                                                    <div class="item-input">
+                                                        <input type="text" placeholder="您的称呼" name="name" id="uname">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><i class="icon icon-form-tel"></i></div>
+                                                <div class="item-inner">
+                                                    <!-- <div class="item-title label">联系方式</div> -->
+                                                    <div class="item-input">
+                                                        <input type="text" placeholder="联系方式" id="tel" name="tel">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><i class="icon icon-form-email"></i></div>
+                                                <div class="item-inner">
+                                                    <!-- <div class="item-title label">电子邮箱</div> -->
+                                                    <div class="item-input">
+                                                        <input type="email" placeholder="电子邮箱">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="align-top">
+                                            <div class="item-content">
+                                                <div class="item-media"><i class="icon icon-form-comment"></i></div>
+                                                <div class="item-inner">
+                                                    <div class="item-input">
+                                                        <textarea name="message" id="msg" placeholder="您的需求"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="tijiao">
+                                        <input type="submit" value="提交需求" class="button button-big button-fill ">
+                                        <!-- <a  class="button" type="submit">提交需求</a> -->
+                                        <script>
+                                            document.getElementById("url").value = window.location.href;
+                                        </script>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部 -->
+
+            <div class="toolbar tabbar-labels bottom">
+                <div class="toolbar-inner">
+                    <li>
+                        <a href="/" class="">
+                            <i class="f7-icons">home</i>
+                            <span class="tabbar-label">首页</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="product.html" class="">
+                            <i class="f7-icons">data</i>
+                            <span class="tabbar-label">产品中心</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="">
+                            <i class="f7-icons">cloud</i>
+                            <span class="tabbar-label">关于我们</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="">
+                            <i class="f7-icons">phone</i>
+                            <span class="tabbar-label">联系我们</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+
+
+</body>
