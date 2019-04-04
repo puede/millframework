@@ -1,5 +1,8 @@
 // Initialize your app
-var myApp = new Framework7();
+var myApp = new Framework7({
+  pushState : true,
+  pushStateSeparator: "",
+});
 
 // Export selectors engine
 var $$ = Dom7;
